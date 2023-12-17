@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+</head>
+
+
+
+<body>
+    <center>
+        <h1>
+            <center>Place <span style="color: brown;">an</span> Order</center>
+        </h1>
+        <p>
+            Please fill out the form below to place your order.
+        </p>
+        <frameset rows="50%,50%">
+            <form action="payment.html" method="">
+                <strong style="position: relative;">First Name:</strong>
+                <input type="text" placeholder="First Name"><br><br>
+                <strong style="position: relative;">Last Name:</strong>
+                <input type="text" placeholder="Last Name"><br><br>
+                <strong style="position: relative;">E-mail:</strong>
+                <input type="email" placeholder="ex: myname@example.com" style="width: 200px;"><br><br>
+                <strong style="position: relative;">Contact Number:</strong>
+                <input type="tel" placeholder="+91 "><br><br>
+                <strong style="position: relative;">Quantity Required:</strong>
+                <input type="number" placeholder="Quantity"><br><br>
+                <strong style="position: relative;">Delivery Date:</strong>
+                <input type="date" placeholder="Delivery date"><br><br>
+                <strong>Delivery Time</strong><br>
+                <input type="radio" name="t1" id="t1" value="time">
+                <label for="t1" style="font-size: small;">9:00 AM - 11:00 AM</label>
+                <input type="radio" name="t2" id="t2" value="time">
+                <label for="t2" style="font-size: small;">11:00 AM - 1:00 PM</label><br>
+                <input type="radio" name="t3" id="t3" value="time">
+                <label for="t3" style="font-size: small;">1:00 PM - 3:00 PM</label>
+                <input type="radio" name="t4" id="t4" value="time">
+                <label for="t4" style="font-size: small;">3:00 PM - 5:00 PM</label><br><br>
+                <strong style="position: relative;">Address:</strong>
+                <input type="text" placeholder="Street Address" style="height: 50px;"><br><br>
+                <input type="text" placeholder="city">
+                <input type="text" placeholder="State"><br><br>
+                <input type="text" placeholder="Postal/Zip code">
+                <input type="text" placeholder="Country"><br><br>
+                <strong style="position: relative;">Special Comments:</strong>
+                <input type="text" placeholder="Additional Comments" style="height: 50px;"><br><br>
+                <input type="checkbox" name="a" id="a" value="terms and conditions">
+                <label for="a">I Accept the terms and conditions</label><br><br>
+                <button style="color: blue;">Place Order</button>
+            </form>
+        </frameset>
+    </center>
+</body>
+
+</html>
